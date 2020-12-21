@@ -16,7 +16,7 @@ body{
 h3{
     font-size: 85px;
     color: transparent;
-    -webkit-text-stroke: 2px darkslateblue;
+    -webkit-text-stroke: 2px rgb(19, 107, 92);
     font-weight: normal;
 }
 p{
@@ -25,7 +25,19 @@ p{
     margin: 10px 40px;
     line-height: 1.3;
 }
-.CodeMirror{
-    text-align: left;
 
+.editor{
+    width: 1300px;
+    margin: 50px auto;
+    border: 3px solid #fff;
+    .preview{
+        display: flex;
+        .CodeMirror{
+            text-align: left;
+            flex: 1;
+        
+        }
+
+    }
 }
+ 
