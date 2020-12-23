@@ -8,7 +8,7 @@ let fontSwitchBtn = document.getElementById('font-switch-btn');
 let fontSizeSwitchBtn = document.getElementById('font-size-switch-btn');
 let loader = document.querySelector('.loading');
 let openFileBtn = document.getElementById('open-file-btn');
-let logo = document.querySelector('.karton-logo');
+let logo = document.querySelector('.glas-logo');
 let watermark = true;
 // let title = document.getElementById('title');
 
@@ -74,7 +74,7 @@ const exportImage = (size) => {
             logo.style.display = '';
         preview.style.transform = 'scale(1)';
         let a = document.createElement('a');
-        a.setAttribute('download', 'karton.png');
+        a.setAttribute('download', 'glas.png');
         a.setAttribute('href', canvas.toDataURL('image/png'));
         a.click();
     });
